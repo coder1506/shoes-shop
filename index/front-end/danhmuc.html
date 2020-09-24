@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Danh mục</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="../../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../../css/styledanhmuc.css">
+	<link rel="stylesheet" type="text/css" href="../../css/bootstrap-4.5.2-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../../css/fontawesome/fontawesome-free-5.14.0-web/css/all.min.css">
+	<script type="text/javascript" src="../../js/jquery/jquery-3.5.1.js"></script>
+	<script type="text/javascript" src="../../js/solution.js"></script>
+  	<script type="text/javascript" src="../../js/bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<!-- title -->
+		<div class="title">Welcome to shoes-shop!</div>
+		<!-- /title -->
+		<!-- menu -->
+		<header class="header header-dam">
+				<!--header-top-content  -->
+				<div class="header-content">
+					<div class="header-top-content">
+					<div class="search">
+						<form action="#">
+						<input type="text" class="color-hover" id="input-search" placeholder="Tìm kiếm sản phẩm..." required>
+						<button class="color-hover"><i class="fas fa-search"></i></button>
+						</form>
+					</div>
+					<div class="logo">
+						Shoes-shop
+					</div>
+					<div class="account-cart">
+						<span class="account"><a href="#" class="color-hover"><i class="far fa-user"></i> Tài khoản</a></span>
+						<span class="cart"><a href="#" class="color-hover"><i class="fas fa-cart-plus"></i> Giỏ hàng</a>
+							<div class="small-circle-cart">0</div>
+						</span>
+					</div>	
+					</div>
+					<!-- menu -->
+					<nav class="header-menu">
+						<ul class="nav">
+						  <li class="nav-item">
+						    <a class="nav-link color-hover" href="#">
+						    TRANG CHỦ
+							</a>
+						  </li>
+						  <li class="nav-item sp">
+						    <a class="nav-link color-hover" href="#">SẢN PHẨM &nbsp<i class="fas fa-angle-down"></i></a>
+						   <ul class="sub-menu sub-menu-sp color-hover">
+						    	<li><a href="#">Converse</a></li>
+						    	<li><a href="#">Sneaker </a></li>
+						    	<li><a href="#">Nike</a></li>
+						    	<li><a href="#">Gucci</a></li>
+						    	<li><a href="#">EQT</a></li>
+						    	<li><a href="#">Alexander McQueen </a></li>
+						    	<li><a href="#">Balenciaga </a></li>
+						    	<li><a href="#">Dolce & Gabbana</a></li>
+						    </ul>
+						  </li>
+						  <li class="nav-item lc">
+						    <a class="nav-link color-hover" href="#">PHỤ KIỆN KHÁC &nbsp<i class="fas fa-angle-down"></i></a>
+						   <ul class="sub-menu sub-menu-lc">
+						    	<li><a href="#">Dây giày</a></li>
+						    	<li><a href="#">Bọc giày</a></li>
+						    	<li><a href="#">Bọt về sinh</a></li>
+						    	<li><a href="#">Viên khử mùi và hút ẩm</a></li>
+						    	<li><a href="#">Lọ tẩy ố</a></li>
+						    	<li><a href="#">Sticker</a></li>
+						    </ul>
+						  </li>
+						</ul>
+					</nav>
+					<!-- /menu -->
+				</div>
+				<!-- header-top-content -->
+			</header>
+		<!-- /menu -->
+		<!-- content -->
+		<div class="content">
+			<div class="filter">
+				<div class="part-filter top-filter">
+					<h3>Tất cả sản phẩm</h3>
+					<button href="#" class="buttn top-btn">
+						Giới tính
+						&nbsp
+						&nbsp
+						<i class="fas fa-angle-down"></i>
+						<ul class="sub-menu sub-menu-filter">
+							<li>
+								<input type="checkbox" name="nam"> Nam
+							</li>
+							<li>
+								<input type="checkbox" name="nu"> Nữ
+							</li>
+						</ul>
+					</button>
+					<button class="buttn top-btn">
+						<i class="fas fa-sort-alpha-down"></i>
+						Mới nhất
+						&nbsp
+						&nbsp
+						<i class="fas fa-angle-down"></i>
+						<ul class="sub-menu sub-menu-filter">
+							<li><a href="#">Giá: Tăng dần</a></li>
+							<li><a href="#">Giá: Giảm dần</a></li>
+							<li><a href="#">Tên: A-Z</a></li>
+							<li><a href="#">Tên: Z-A</a></li>
+							<li><a href="#">Cũ nhất</a></li>
+							<li><a href="#">Mới nhất</a></li>
+							<li><a href="#">Bán chạy nhất</a></li>
+							<li><a href="#">Tồn kho:Giảm dần</a></li>
+						</ul>
+					</button>
+				</div>
+				<div class="part-filter bot-filter">
+					<h3>
+					<i class="fas fa-filter"></i>&nbsp
+					Bộ lọc</h3>
+					<button href="#" class="buttn bot-btn">
+						Loại sản phẩm
+						&nbsp
+						&nbsp
+						<i class="fas fa-angle-down"></i>
+						<ul class="sub-menu sub-menu-filter">
+							<li>
+								<input type="checkbox" name=""> khác
+							</li>
+						</ul>
+					</button>
+					<button href="#" class="buttn bot-btn">
+						Giá sản phẩm
+						&nbsp
+						&nbsp
+						<i class="fas fa-angle-down"></i>
+						<ul class="sub-menu sub-menu-filter">
+							<li><a><input type="checkbox" name=""> Dưới 500,000₫</a></li>
+							<li><a><input type="checkbox" name=""> 500,000₫ - 1,000,000₫</a></li>
+							<li><a><input type="checkbox" name=""> 1,000,000₫ - 1,500,000₫</a></li>
+							<li><a><input type="checkbox" name=""> 2,000,000₫ - 5,000,000₫</a></li>
+							<li><a><input type="checkbox" name=""> Trên 5,000,000₫</a></li>
+						</ul>
+					</button>
+					<button href="#" class="buttn bot-btn">
+						Màu sắc
+						&nbsp
+						&nbsp
+						<i class="fas fa-angle-down"></i>
+						<ul class="sub-menu sub-menu-filter">
+							<li><a><input type="checkbox" name=""> Xanh</a></li>
+							<li><a><input type="checkbox" name=""> Đỏ</a></li>
+							<li><a><input type="checkbox" name=""> Tím</a></li>
+							<li><a><input type="checkbox" name=""> Vàng</a></li>
+							<li><a><input type="checkbox" name=""> Hồng</a></li>
+							<li><a><input type="checkbox" name=""> Nâu</a></li>
+							<li><a><input type="checkbox" name=""> Đen</a></li>
+							<li><a><input type="checkbox" name=""> Trắng</a></li>
+						</ul>
+					</button>
+					<button href="#" class="buttn bot-btn">
+						Kích thước
+						&nbsp
+						&nbsp
+						<i class="fas fa-angle-down"></i>
+						<ul class="sub-menu sub-menu-filter">
+							<li><a><input type="checkbox" name=""> 38</a></li>
+							<li><a><input type="checkbox" name=""> 39</a></li>
+							<li><a><input type="checkbox" name=""> 40</a></li>
+							<li><a><input type="checkbox" name=""> 41</a></li>
+							<li><a><input type="checkbox" name=""> 42</a></li>
+						</ul>
+					</button>
+				</div>
+			</div>
+			<div class="container-fluid">
+				<div class="row justify-content-center">
+					<div class="col-xl-2 col-lg-2 col-md-5 prd">
+						<img src="../../images/product/sp.jpg">
+						<div class="btn-more add-btn add-btn-m"><a href="#">THÊM VÀO GIỎ</a></div>
+						<div class="btn-more add-btn ct-btn"><a href="#">CHI TIẾT</a></div>
+						<div class="cost">
+							<a href="#">Born originals</a>
+							<br>
+							150.000Đ
+						</div>
+					</div>	
+					<div class="col-xl-2 col-lg-2 col-md-5 prd">
+						<img src="../../images/product/sp1.jpg">
+						<div class="btn-more add-btn add-btn-m"><a href="#">THÊM VÀO GIỎ</a></div>
+						<div class="btn-more add-btn ct-btn"><a href="#">CHI TIẾT</a></div>
+						<div class="cost">
+							<a href="#">Born originals</a>
+							<br>
+							150.000Đ
+						</div>
+					</div>	
+					<div class="col-xl-2 col-lg-2 col-md-5 prd">
+						<img src="../../images/product/sp2.jpg">
+						<div class="btn-more add-btn add-btn-m"><a href="#">THÊM VÀO GIỎ</a></div>
+						<div class="btn-more add-btn ct-btn"><a href="#">CHI TIẾT</a></div>
+						<div class="cost">
+							<a href="#">Born originals</a>
+							<br>
+							150.000Đ
+						</div>
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-5 prd">
+						<img src="../../images/product/sp3.jpg">
+						<div class="btn-more add-btn add-btn-m"><a href="#">THÊM VÀO GIỎ</a></div>
+						<div class="btn-more add-btn ct-btn"><a href="#">CHI TIẾT</a></div>
+						<div class="cost">
+							<a href="#">Born originals</a>
+							<br>
+							150.000Đ
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-xl-2 col-lg-2 col-md-5 prd">
+						<img src="../../images/product/sp4.jpg">
+						<div class="btn-more add-btn add-btn-m"><a href="#">THÊM VÀO GIỎ</a></div>
+						<div class="btn-more add-btn ct-btn"><a href="#">CHI TIẾT</a></div>
+						<div class="cost">
+							<a href="#">Born originals</a>
+							<br>
+							150.000Đ
+						</div>
+					</div>	
+					<div class="col-xl-2 col-lg-2 col-md-5 prd">
+						<img src="../../images/product/sp5.jpg">
+						<div class="btn-more add-btn add-btn-m"><a href="#">THÊM VÀO GIỎ</a></div>
+						<div class="btn-more add-btn ct-btn"><a href="#">CHI TIẾT</a></div>
+						<div class="cost">
+							<a href="#">Born originals</a>
+							<br>
+							150.000Đ
+						</div>
+					</div>	
+					<div class="col-xl-2 col-lg-2 col-md-5 prd">
+						<img src="../../images/product/sp6.jpg">
+						<div class="btn-more add-btn add-btn-m"><a href="#">THÊM VÀO GIỎ</a></div>
+						<div class="btn-more add-btn ct-btn"><a href="#">CHI TIẾT</a></div>
+						<div class="cost">
+							<a href="#">Born originals</a>
+							<br>
+							150.000Đ
+						</div>
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-5 prd">
+						<img src="../../images/product/sp7.jpg">
+						<div class="btn-more add-btn add-btn-m"><a href="#">THÊM VÀO GIỎ</a></div>
+						<div class="btn-more add-btn ct-btn"><a href="#">CHI TIẾT</a></div>
+						<div class="cost">
+							<a href="#">Born originals</a>
+							<br>
+							150.000Đ
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-xl-2 col-lg-2 col-md-5 prd">
+						<img src="../../images/product/sp8.jpg">
+						<div class="btn-more add-btn add-btn-m"><a href="#">THÊM VÀO GIỎ</a></div>
+						<div class="btn-more add-btn ct-btn"><a href="#">CHI TIẾT</a></div>
+						<div class="cost">
+							<a href="#">Born originals</a>
+							<br>
+							150.000Đ
+						</div>
+					</div>	
+					<div class="col-xl-2 col-lg-2 col-md-5 prd">
+						<img src="../../images/product/sp9.jpg">
+						<div class="btn-more add-btn add-btn-m"><a href="#">THÊM VÀO GIỎ</a></div>
+						<div class="btn-more add-btn ct-btn"><a href="#">CHI TIẾT</a></div>
+						<div class="cost">
+							<a href="#">Born originals</a>
+							<br>
+							150.000Đ
+						</div>
+					</div>	
+					<div class="col-xl-2 col-lg-2 col-md-5 prd">
+						<img src="../../images/product/sp1.jpg">
+						<div class="btn-more add-btn add-btn-m"><a href="#">THÊM VÀO GIỎ</a></div>
+						<div class="btn-more add-btn ct-btn"><a href="#">CHI TIẾT</a></div>
+						<div class="cost">
+							<a href="#">Born originals</a>
+							<br>
+							150.000Đ
+						</div>
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-5 prd">
+						<img src="../../images/product/sp1.jpg">
+						<div class="btn-more add-btn add-btn-m"><a href="#">THÊM VÀO GIỎ</a></div>
+						<div class="btn-more add-btn ct-btn"><a href="#">CHI TIẾT</a></div>
+						<div class="cost">
+							<a href="#">Born originals</a>
+							<br>
+							150.000Đ
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-xl-2 col-lg-2 col-md-5 prd">
+						<img src="../../images/product/sp.jpg">
+						<div class="btn-more add-btn add-btn-m"><a href="#">THÊM VÀO GIỎ</a></div>
+						<div class="btn-more add-btn ct-btn"><a href="#">CHI TIẾT</a></div>
+						<div class="cost">
+							<a href="#">Born originals</a>
+							<br>
+							150.000Đ
+						</div>
+					</div>	
+					<div class="col-xl-2 col-lg-2 col-md-5 prd">
+						<img src="../../images/product/sp.jpg">
+						<div class="btn-more add-btn add-btn-m"><a href="#">THÊM VÀO GIỎ</a></div>
+						<div class="btn-more add-btn ct-btn"><a href="#">CHI TIẾT</a></div>
+						<div class="cost">
+							<a href="#">Born originals</a>
+							<br>
+							150.000Đ
+						</div>
+					</div>	
+					<div class="col-xl-2 col-lg-2 col-md-5 prd">
+						<img src="../../images/product/sp1.jpg">
+						<div class="btn-more add-btn add-btn-m"><a href="#">THÊM VÀO GIỎ</a></div>
+						<div class="btn-more add-btn ct-btn"><a href="#">CHI TIẾT</a></div>
+						<div class="cost">
+							<a href="#">Born originals</a>
+							<br>
+							150.000Đ
+						</div>
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-5 prd">
+						<img src="../../images/product/sp1.jpg">
+						<div class="btn-more add-btn add-btn-m"><a href="#">THÊM VÀO GIỎ</a></div>
+						<div class="btn-more add-btn ct-btn"><a href="#">CHI TIẾT</a></div>
+						<div class="cost">
+							<a href="#">Born originals</a>
+							<br>
+							150.000Đ
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-xl-2 col-lg-2 col-md-5 prd">
+						<img src="../../images/product/sp.jpg">
+						<div class="btn-more add-btn add-btn-m"><a href="#">THÊM VÀO GIỎ</a></div>
+						<div class="btn-more add-btn ct-btn"><a href="#">CHI TIẾT</a></div>
+						<div class="cost">
+							<a href="#">Born originals</a>
+							<br>
+							150.000Đ
+						</div>
+					</div>	
+					<div class="col-xl-2 col-lg-2 col-md-5 prd">
+						<img src="../../images/product/sp.jpg">
+						<div class="btn-more add-btn add-btn-m"><a href="#">THÊM VÀO GIỎ</a></div>
+						<div class="btn-more add-btn ct-btn"><a href="#">CHI TIẾT</a></div>
+						<div class="cost">
+							<a href="#">Born originals</a>
+							<br>
+							150.000Đ
+						</div>
+					</div>	
+					<div class="col-xl-2 col-lg-2 col-md-5 prd">
+						<img src="../../images/product/sp1.jpg">
+						<div class="btn-more add-btn add-btn-m"><a href="#">THÊM VÀO GIỎ</a></div>
+						<div class="btn-more add-btn ct-btn"><a href="#">CHI TIẾT</a></div>
+						<div class="cost">
+							<a href="#">Born originals</a>
+							<br>
+							150.000Đ
+						</div>
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-5 prd">
+						<img src="../../images/product/sp1.jpg">
+						<div class="btn-more add-btn add-btn-m"><a href="#">THÊM VÀO GIỎ</a></div>
+						<div class="btn-more add-btn ct-btn"><a href="#">CHI TIẾT</a></div>
+						<div class="cost">
+							<a href="#">Born originals</a>
+							<br>
+							150.000Đ
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-xl-2 col-lg-2 col-md-5 prd">
+						<img src="../../images/product/sp.jpg">
+						<div class="btn-more add-btn add-btn-m"><a href="#">THÊM VÀO GIỎ</a></div>
+						<div class="btn-more add-btn ct-btn"><a href="#">CHI TIẾT</a></div>
+						<div class="cost">
+							<a href="#">Born originals</a>
+							<br>
+							150.000Đ
+						</div>
+					</div>	
+					<div class="col-xl-2 col-lg-2 col-md-5 prd">
+						<img src="../../images/product/sp.jpg">
+						<div class="btn-more add-btn add-btn-m"><a href="#">THÊM VÀO GIỎ</a></div>
+						<div class="btn-more add-btn ct-btn"><a href="#">CHI TIẾT</a></div>
+						<div class="cost">
+							<a href="#">Born originals</a>
+							<br>
+							150.000Đ
+						</div>
+					</div>	
+					<div class="col-xl-2 col-lg-2 col-md-5 prd">
+						<img src="../../images/product/sp1.jpg">
+						<div class="btn-more add-btn add-btn-m"><a href="#">THÊM VÀO GIỎ</a></div>
+						<div class="btn-more add-btn ct-btn"><a href="#">CHI TIẾT</a></div>
+						<div class="cost">
+							<a href="#">Born originals</a>
+							<br>
+							150.000Đ
+						</div>
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-5 prd">
+						<img src="../../images/product/sp1.jpg">
+						<div class="btn-more add-btn add-btn-m"><a href="#">THÊM VÀO GIỎ</a></div>
+						<div class="btn-more add-btn ct-btn"><a href="#">CHI TIẾT</a></div>
+						<div class="cost">
+							<a href="#">Born originals</a>
+							<br>
+							150.000Đ
+						</div>
+					</div>
+				</div>
+		</div>
+		<div class="footer">
+			<ul>
+				<li class="title-footer">Giới thiệu</li>
+				<li>
+					CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ
+				</li>
+			</ul>
+			<ul>
+				<li class="title-footer">Shoes-shop</li>
+				<li>
+					<a href="#">Về chúng tôi</a>
+				</li>
+				<li><a href="#">Tìm cửa hàng</a></li>
+			</ul>
+			<ul>
+				<li class="title-footer">Thông tin liên hệ</li>
+				<li>
+					0366100615
+				</li>
+				<li>
+					duc5061@gmail.com
+				</li>
+				<li class="title-end">@shoes-shop</li>
+			</ul>
+			<ul>
+				<li class="title-footer">Theo dõi chúng tôi trên</li>
+				<li>
+					<a href="#"><i class="fab fa-facebook"></i></a> &nbsp
+					<a href="#"><i class="fab fa-twitter-square"></i></a> &nbsp 
+					<a href="#"><i class="fab fa-google"></i></a> &nbsp
+				</li>
+			</ul>
+		</div>
+		<!-- /content -->
+	</div>
+</body>
+</html>
