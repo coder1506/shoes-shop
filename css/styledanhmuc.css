@@ -3,6 +3,7 @@
 	background-color: #eeeeee;
 	color: black;
 	position: static;
+	box-shadow: 2px 2px rgba(0,0,0,0.2);
 }
 .title{
 	display: none;
@@ -52,7 +53,7 @@
 	border:1px solid grey;
 	display: inline;
 	width: 200px;
-	height: 35px;
+	line-height: 35px;
 	background-color: white;
 	text-align: left;
 	padding-left: 10px;
@@ -60,7 +61,7 @@
 .buttn .fa-angle-down{
 	float: right;
 	margin-right: 8px;
-	margin-top: 4px;
+	margin-top: 10px;
 }
 .buttn:hover{
 	text-decoration: none;
@@ -103,6 +104,9 @@
 .cost{
 	font-size: 11px;
 }
+.rp-btn{
+	display: none;
+}
 /*/filter*/
 /*animation*/
 @keyframes moveSub-menu-filter{
@@ -111,8 +115,29 @@
 		opacity: 0;
 	}
 	100%{
-		top: 34px;
+		top: 36px;
 		opacity: 1;
 	}
 }
 /*/animation*/
+@media all and (max-width: 833px){
+	.filter .buttn{
+		display: none;
+	}
+	.rp-btn{
+		display: block !important;
+		width: 40%;
+	}
+	.rp-btn ul{
+		width: 101.5%;
+	}
+	.rp-btn li{
+		text-align: center;
+	}
+	.rp-btn li select{
+		width: 100%;
+	}
+	.filter{
+		line-height: 60px;
+	}
+}

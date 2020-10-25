@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="../../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../../css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="../../css/styledanhmuc.css">
 	<link rel="stylesheet" type="text/css" href="../../css/bootstrap-4.5.2-dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../../css/fontawesome/fontawesome-free-5.14.0-web/css/all.min.css">
@@ -18,7 +19,7 @@
 		<div class="title">Welcome to shoes-shop!</div>
 		<!-- /title -->
 		<!-- menu -->
-		<header class="header header-dam">
+		<header class="header">
 				<!--header-top-content  -->
 				<div class="header-content">
 					<div class="header-top-content">
@@ -31,15 +32,7 @@
 					<div class="logo">
 						Shoes-shop
 					</div>
-					<div class="account-cart">
-						<span class="account"><a href="#" class="color-hover"><i class="far fa-user"></i> Tài khoản</a></span>
-						<span class="cart"><a href="#" class="color-hover"><i class="fas fa-cart-plus"></i> Giỏ hàng</a>
-							<div class="small-circle-cart">0</div>
-						</span>
-					</div>	
-					</div>
-					<!-- menu -->
-					<nav class="header-menu">
+					<nav class="header-menu menu-upto500">
 						<ul class="nav">
 						  <li class="nav-item">
 						    <a class="nav-link color-hover" href="#">
@@ -48,7 +41,7 @@
 						  </li>
 						  <li class="nav-item sp">
 						    <a class="nav-link color-hover" href="#">SẢN PHẨM &nbsp<i class="fas fa-angle-down"></i></a>
-						   <ul class="sub-menu sub-menu-sp color-hover">
+						    <ul class="sub-menu sub-menu-sp color-hover">
 						    	<li><a href="#">Converse</a></li>
 						    	<li><a href="#">Sneaker </a></li>
 						    	<li><a href="#">Nike</a></li>
@@ -61,7 +54,94 @@
 						  </li>
 						  <li class="nav-item lc">
 						    <a class="nav-link color-hover" href="#">PHỤ KIỆN KHÁC &nbsp<i class="fas fa-angle-down"></i></a>
-						   <ul class="sub-menu sub-menu-lc">
+						    <ul class="sub-menu sub-menu-lc">
+						    	<li><a href="#">Dây giày</a></li>
+						    	<li><a href="#">Bọc giày</a></li>
+						    	<li><a href="#">Bọt về sinh</a></li>
+						    	<li><a href="#">Viên khử mùi và hút ẩm</a></li>
+						    	<li><a href="#">Lọ tẩy ố</a></li>
+						    	<li><a href="#">Sticker</a></li>
+						    </ul>
+						  </li>
+						</ul>
+					</nav>
+					<div class="account-cart">
+						<span class="account"><a href="#" class="color-hover"><i class="far fa-user"></i> Tài khoản</a></span>
+						<span class="cart"><a href="#" class="color-hover"><i class="fas fa-cart-plus"></i> <span class="cart-text">Giỏ hàng</span></a>
+							<div class="small-circle-cart">0</div>
+						</span>
+						<span class="responsive-menu">
+							<div class="rp-menu-exit"><i class="fas fa-times"></i></div>
+							<button id="rp-menu-btn">
+								<i class="fas fa-bars"></i>
+									<ul class="nav flex-column content-rp-menu">
+										<div class="title-rp-menu">Menu</div>
+										 <li class="nav-item">
+										    <a class="nav-link color-hover" href="#">
+										    TRANG CHỦ
+											</a>
+										  </li>
+										  <li class="nav-item sp">
+										    <a href="#">SẢN PHẨM &nbsp</a><i class="fas fa-angle-down sp-icon"></i>
+										    <ul class="sub-menu-sp color-hover">
+										    	<li><a href="#">Converse</a></li>
+										    	<li><a href="#">Sneaker </a></li>
+										    	<li><a href="#">Nike</a></li>
+										    	<li><a href="#">Gucci</a></li>
+										    	<li><a href="#">EQT</a></li>
+										    	<li><a href="#">Alexander McQueen </a></li>
+										    	<li><a href="#">Balenciaga </a></li>
+										    	<li><a href="#">Dolce & Gabbana</a></li>
+										    </ul>
+										  </li>
+										  <li class="nav-item lc">
+										    <a href="#">PHỤ KIỆN KHÁC &nbsp</a><i class="fas fa-angle-down lc-icon"></i>
+										    <ul class="sub-menu-lc">
+										    	<li><a href="#">Dây giày</a></li>
+										    	<li><a href="#">Bọc giày</a></li>
+										    	<li><a href="#">Bọt về sinh</a></li>
+										    	<li><a href="#">Viên khử mùi và hút ẩm</a></li>
+										    	<li><a href="#">Lọ tẩy ố</a></li>
+										    	<li><a href="#">Sticker</a></li>
+										    </ul>
+										  </li>
+									</ul>
+							</button>
+						</span>
+					</div>	
+					</div>
+					<!-- responsive-search -->
+					<div class="search responsive-search">
+						<form action="#">
+						<input type="text" class="color-hover" id="input-search" placeholder="Tìm kiếm sản phẩm..." required>
+						<button class="color-hover"><i class="fas fa-search"></i></button>
+						</form>
+					</div>
+					<!-- /responsive-search -->
+					<!-- menu -->
+					<nav class="header-menu">
+						<ul class="nav">
+						  <li class="nav-item">
+						    <a class="nav-link color-hover" href="#">
+						    TRANG CHỦ
+							</a>
+						  </li>
+						  <li class="nav-item sp">
+						    <a class="nav-link color-hover" href="#">SẢN PHẨM &nbsp<i class="fas fa-angle-down"></i></a>
+						    <ul class="sub-menu sub-menu-sp color-hover">
+						    	<li><a href="#">Converse</a></li>
+						    	<li><a href="#">Sneaker </a></li>
+						    	<li><a href="#">Nike</a></li>
+						    	<li><a href="#">Gucci</a></li>
+						    	<li><a href="#">EQT</a></li>
+						    	<li><a href="#">Alexander McQueen </a></li>
+						    	<li><a href="#">Balenciaga </a></li>
+						    	<li><a href="#">Dolce & Gabbana</a></li>
+						    </ul>
+						  </li>
+						  <li class="nav-item lc">
+						    <a class="nav-link color-hover" href="#">PHỤ KIỆN KHÁC &nbsp<i class="fas fa-angle-down"></i></a>
+						    <ul class="sub-menu sub-menu-lc">
 						    	<li><a href="#">Dây giày</a></li>
 						    	<li><a href="#">Bọc giày</a></li>
 						    	<li><a href="#">Bọt về sinh</a></li>
@@ -82,7 +162,7 @@
 			<div class="filter">
 				<div class="part-filter top-filter">
 					<h3>Tất cả sản phẩm</h3>
-					<button href="#" class="buttn top-btn">
+					<div href="#" class="buttn top-btn">
 						Giới tính
 						&nbsp
 						&nbsp
@@ -95,8 +175,8 @@
 								<input type="checkbox" name="nu"> Nữ
 							</li>
 						</ul>
-					</button>
-					<button class="buttn top-btn">
+					</div>
+					<div class="buttn top-btn">
 						<i class="fas fa-sort-alpha-down"></i>
 						Mới nhất
 						&nbsp
@@ -112,13 +192,79 @@
 							<li><a href="#">Bán chạy nhất</a></li>
 							<li><a href="#">Tồn kho:Giảm dần</a></li>
 						</ul>
-					</button>
+					</div>
 				</div>
 				<div class="part-filter bot-filter">
+					<div class="buttn top-btn rp-btn">
+						Bộ lọc
+						&nbsp
+						&nbsp
+						<i class="fas fa-angle-down"></i>
+						<ul class="sub-menu sub-menu-filter">
+							<li>
+								<select id="new" name="new">
+								  <option value="title">*Mới nhất</option>
+								  <option value="saab">Giá: Giảm dần</option>
+								  <option value="fiat">Tên: A-Z</option>
+								  <option value="title">Tên: Z-A</option>
+								  <option value="saab">Cũ nhất</option>
+								  <option value="fiat">Mới nhất</option>
+								  <option value="saab">Bán chạy nhất</option>
+								  <option value="fiat">Tồn kho:Giảm dần</option>
+								</select>
+							</li>
+							<li>
+								<select id="new" name="new">
+								  <option value="title">*Giá sản phẩm</option>
+								  <option value="saab">Dưới 500,000₫</option>
+								  <option value="fiat">500,000₫ - 1,000,000₫</option>
+								  <option value="title">1,000,000₫ - 1,500,000₫</option>
+								  <option value="saab">2,000,000₫ - 5,000,000₫</option>
+								  <option value="fiat">Trên 5,000,000₫</option>
+								</select>
+							</li>
+							<li>
+								<select id="new" name="new">
+								  <option value="title">*Màu sắc</option>
+								  <option value="saab">Xanh</option>
+								  <option value="fiat">Đỏ</option>
+								  <option value="title">Tím</option>
+								  <option value="saab">Vàng</option>
+								  <option value="fiat">Hồng</option>
+								  <option value="saab">Nâu</option>
+								  <option value="fiat">Đen</option>
+								  <option value="fiat">Trắng</option>
+								</select>
+							</li>
+							<li>
+								<select id="new" name="new">
+								  <option value="title">*Kích thước</option>
+								  <option value="saab">38</option>
+								  <option value="fiat">39</option>
+								  <option value="title">40</option>
+								  <option value="saab">41</option>
+								  <option value="fiat">42</option>
+								</select>
+							</li>
+							<li>
+								<select id="new" name="new">
+								  <option value="title">*Giới tính</option>
+								  <option value="saab">Nam</option>
+								  <option value="fiat">Nữ</option>
+								</select>
+							</li>
+							<li>
+								<select id="new" name="new">
+								  <option value="title">*Loại sản phẩm</option>
+								  <option value="saab">Khác</option>
+								</select>
+							</li>
+						</ul>
+					</div>
 					<h3>
 					<i class="fas fa-filter"></i>&nbsp
 					Bộ lọc</h3>
-					<button href="#" class="buttn bot-btn">
+					<div href="#" class="buttn bot-btn">
 						Loại sản phẩm
 						&nbsp
 						&nbsp
@@ -128,8 +274,8 @@
 								<input type="checkbox" name=""> khác
 							</li>
 						</ul>
-					</button>
-					<button href="#" class="buttn bot-btn">
+					</div>
+					<div href="#" class="buttn bot-btn">
 						Giá sản phẩm
 						&nbsp
 						&nbsp
@@ -141,8 +287,8 @@
 							<li><a><input type="checkbox" name=""> 2,000,000₫ - 5,000,000₫</a></li>
 							<li><a><input type="checkbox" name=""> Trên 5,000,000₫</a></li>
 						</ul>
-					</button>
-					<button href="#" class="buttn bot-btn">
+					</div>
+					<div href="#" class="buttn bot-btn">
 						Màu sắc
 						&nbsp
 						&nbsp
@@ -157,8 +303,8 @@
 							<li><a><input type="checkbox" name=""> Đen</a></li>
 							<li><a><input type="checkbox" name=""> Trắng</a></li>
 						</ul>
-					</button>
-					<button href="#" class="buttn bot-btn">
+					</div>
+					<div href="#" class="buttn bot-btn">
 						Kích thước
 						&nbsp
 						&nbsp
@@ -170,7 +316,7 @@
 							<li><a><input type="checkbox" name=""> 41</a></li>
 							<li><a><input type="checkbox" name=""> 42</a></li>
 						</ul>
-					</button>
+					</div>
 				</div>
 			</div>
 			<div class="container-fluid">
@@ -459,6 +605,40 @@
 					<a href="#"><i class="fab fa-google"></i></a> &nbsp
 				</li>
 			</ul>
+			<div class="responsive-footer">
+				<nav class="nav flex-column">
+					<li class="nav-item sp">
+								Giới thiệu &nbsp<i class="fas fa-angle-down sp-icon"></i>
+										    <ul class="sub-menu-sp">
+										    	<li>CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ</li>
+										    </ul>
+										  </li>
+					</li>
+					<li class="nav-item">shoes-shop<i class="fas fa-angle-down lc-icon"></i>
+											<ul class="sub-menu-lc">
+										    	<li><a href="#">Về chúng tôi</a></li>
+										    	<li><a href="#">Tìm cửa hàng</a></li>
+										    </ul>
+										  </li>
+					<li class="nav-item">
+						Thông tin liên hệ<i class="fas fa-angle-down m1"></i>
+						<ul class="sub-m1">
+										    	<li><a href="#">SDT:0366100615</a></li>
+										    	<li><a href="#">duc5061@gmail.com </a></li>
+										    </ul>
+										  </li>
+					</li>
+					<li class="nav-item">Theo dõi chúng tôi<i class="fas fa-angle-down m2"></i>
+						<ul class="sub-m2">
+							<li><a href="#"><i class="fab fa-facebook"></i></a> &nbsp
+							<a href="#"><i class="fab fa-twitter-square"></i></a> &nbsp 
+							<a href="#"><i class="fab fa-google"></i></a> &nbsp</li>
+						</ul>
+					</li>
+					</li>
+					<li>@shoe-shop</li>
+				</nav>
+			</div>
 		</div>
 		<!-- /content -->
 	</div>
